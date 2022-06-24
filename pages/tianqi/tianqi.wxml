@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="top">
+    <input placeholder="输入城市名进行搜索" bindinput="bindKeyInput"></input>
+    <view class="icon">
+      <icon type="search" size="25" bindtap="search" />
+    </view>
+  </view>
+  <view class="body">
+    <view class="city">
+      <text>{{city}}</text>
+    </view>
+    <view class="today">
+      <text>{{date}}</text>
+    </view>
+    
+  </view>
+  <view class="bottom">
+    <view class="weather">
+      <view class="tianqi">
+        <text>{{weather}}</text>
+      </view>
+      
+      <view class="temp">
+        <text >{{temp}}</text>
+      </view>
+    </view>
+    <view class="right">
+      
+      <view class="wind">
+        <text>{{wind}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="ud">
+      <text>更新时间：{{utime}}</text>
+    </view>
+</view>

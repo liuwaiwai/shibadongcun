@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/luntan/luntan",
+    "pages/mine/mine",
+    "pages/about/about",
+    "pages/share/share",
+    "pages/dongtai/dongtai",
+    "pages/denglu/denglu",
+    "pages/tuiwenOne/tuiwenOne",
+    "pages/gongneng/gongneng",
+    "pages/fangyi/fangyi",
+    "pages/yanchu/yanchu",
+    "pages/cunwei/cunwei",
+    "pages/tianqi/tianqi",
+    "pages/guoqu/guoqu",
+    "pages/zhanpin/zhanpin",
+    "pages/xianzai/xianzai",
+    "pages/weilai/weilai",
+    "pages/lianxi/lianxi",
+    "pages/nongjiale/nonfjiale",
+    "pages/minsu/minsu",
+    "pages/tingche/tingche",
+    "pages/weishengjian/weishengjian",
+    "pages/jingdian/jingdian"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1b448d",
+    "navigationBarTitleText": "gogogo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#91cdec",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/navgationBar/shouye-1.png",
+        "selectedIconPath": "static/image/navgationBar/shouye-2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gongneng/gongneng",
+        "iconPath": "static/image/navgationBar/pindao-1.png",
+        "selectedIconPath": "static/image/navgationBar/pindao-2.png",
+        "text": "频道"
+      },
+      {
+        "pagePath": "pages/luntan/luntan",
+        "iconPath": "static/image/navgationBar/luntan-1.png",
+        "selectedIconPath": "static/image/navgationBar/luntan-2.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/image/navgationBar/wode-1.png",
+        "selectedIconPath": "static/image/navgationBar/wode-2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

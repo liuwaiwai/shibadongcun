@@ -1,0 +1,120 @@
+/**index.wxss**/
+/* 最大的盒子 */
+.luntan {
+    /* height: 525rpx; */
+    width:90%;
+    border: 2rpx solid #91cdec;
+    border-radius: 20px;
+    /* margin-bottom: 10rpx; */
+    background-color: white;
+    margin: 20rpx auto;
+  }   
+
+/* 头像昵称时间盒子 */
+.userBox {
+    height:70rpx;
+    width:100%;
+    display: flex;
+}
+
+/* 昵称时间的盒子 */
+.userBox2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 头像 */
+.touBox {
+    height: 80rpx;
+    width: 80rpx;
+    margin-left: 13rpx;
+    margin-top: 10rpx;
+    border-radius: 50%;
+}
+
+/* 昵称 */
+.nameBox {
+    width: 650rpx;
+    height: 70rpx;
+    font-size: 30rpx;
+    line-height: 70rpx;
+    padding-left: 25rpx;
+    padding-top: 10rpx;
+    
+}
+
+/* 时间 */
+.timeBox {
+    width: 650rpx;
+    height: 20rpx;
+    font-size: 10px;
+    line-height: 25rpx;
+    padding-left: 25rpx;
+}
+
+.scroll {
+  /* height: 600rpx; */
+  margin-top: 60rpx;
+  margin-left: 25rpx;
+}
+
+/* 帖子内容 */
+.mainBox {
+    /* height: 130rpx; */
+    width:90%;
+    /* border: 2rpx solid royalblue; */
+    /* overflow: hidden; */
+    font-size: 30rpx;
+    line-height: 40rpx;
+    background-color: white;
+}
+
+/* 动态图片 */
+.images-wrap {
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.images-1 {
+  width: 280rpx;
+  height: 280rpx;
+}
+
+.images-2-3 {
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 10rpx;
+}
+
+/* 点赞收藏评论的盒子 */
+.bottomBox {
+    height: 80rpx;
+    width:90%;
+    /* border: 2rpx solid pink; */
+    background-color: white;
+    border-radius: 20px;
+    
+}
+/* 图标 */
+ .bottomBox text {
+    width: 50rpx;
+    height: 50rpx;
+    line-height: 2.5rem;
+    margin-left: 127rpx;
+}
+
+/* 底部按钮 */
+.btnRelease{
+  position: fixed;
+  bottom: 20rpx;
+  left: 630rpx;
+  display: flex;
+  width: 100%;
+  /* justify-content: center;
+  text-align: center; */
+}
+
+.fabu {
+  width: 100rpx;
+  height: 100rpx;
+}

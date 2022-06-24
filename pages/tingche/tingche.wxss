@@ -1,0 +1,25 @@
+page {
+  background-color: rgb(229,243,254);
+}
+
+.move {
+  width: 5000rpx;
+  height: 5000rpx;
+}
+
+/* .img1 {
+  width: 2000rpx;
+  height: 2000rpx;
+  position: absolute;
+  left: -800rpx;
+  top: -400rpx;
+}
+ */
+
+.img {
+  width: 2500rpx;
+  height: 2500rpx;
+  position: absolute;
+  left: -1000rpx;
+  top: -800rpx;
+}

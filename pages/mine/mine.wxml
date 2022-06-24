@@ -1,0 +1,96 @@
+<!--pages/mine/mine.wxml-->
+<view>
+    <!-- 头像，昵称，账号 -->
+    <view class="touBox">
+        <view wx:if="{{userInfo.avatarUrl}}" class="toDenglu">
+            <image class="denglu" src="{{userInfo.avatarUrl}}"></image>
+            <view class="dengluText">{{userInfo.nickName}}</view>
+        </view>
+        <view wx:else bindtap="toDenglu">
+            <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/yonghu.png" class="denglu"></image>
+            <view class="dengluText">登陆</view>
+        </view> 
+    </view>
+
+    <!-- <view class="miniBox">
+        <view class="iconBox">
+          <text class="iconfont icon-zhuti"></text>
+        </view>
+        <view class="leftBox">
+            我的主题
+        </view>
+        <view class="jiantouBox">
+            <text class="iconfont icon-jinrujiantou"></text>
+        </view>
+    </view> -->
+
+
+
+    <view class="miniBox">
+      <navigator url="../share/share" class="miniBox">
+          <view class="iconBox">
+            <!-- <text class="iconfont icon-fenxiang"></text> -->
+            <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/mime/fenxiang.png" style="width:60rpx; height:60rpx"></image>
+          </view>
+          <!-- <view>
+              分享小程序
+          </view> -->
+          <view class="leftBox">
+            分享小程序
+          </view>
+          <view class="jiantouBox">
+              <text class="iconfont icon-jinrujiantou"></text>
+          </view>
+      </navigator>
+    </view>
+
+    <view class="miniBox">
+      <navigator url="../about/about" class="miniBox">
+        <view class="iconBox">
+          <!-- <text class="iconfont icon-cuowutishi-copy"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/mime/guanyuwomen.png" style="width:60rpx; height:60rpx"></image>
+        </view>
+        <!-- <view>
+            关于小程序
+        </view> -->
+        <view class="leftBox">
+          关于小程序  
+        </view>
+        <view class="jiantouBox">
+            <text class="iconfont icon-jinrujiantou"></text>
+        </view>
+      </navigator>  
+    </view>
+
+    
+    <view class="miniBox">
+      <navigator url="../lianxi/lianxi" class="miniBox">
+          <view class="iconBox">
+              <!-- <text class="iconfont icon-shoucang1"></text> -->
+              <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/mime/lianxi.png" style="width:60rpx; height:60rpx"></image>
+          </view>
+          <view class="leftBox">
+            联系我们
+          </view>
+          <view class="jiantouBox">
+              <text class="iconfont icon-jinrujiantou"></text>
+          </view>
+      </navigator> 
+    </view>
+
+    <view class="miniBox">
+      <view class="miniBox" bindtap="clear">
+        <view class="iconBox">
+          <!-- <text class="iconfont icon-tuichu"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/mime/tuichu.png" style="width:60rpx; height:60rpx"></image>
+        </view>
+        <view class="leftBox">
+            退出登录
+        </view>
+        <view class="jiantouBox">
+            <text class="iconfont icon-jinrujiantou"></text>
+        </view>
+      </view>
+    </view>
+
+</view>

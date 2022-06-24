@@ -1,0 +1,44 @@
+<block wx:for="{{dongtaiList}}" wx:key="index">
+  <!-- 最大的盒子 -->
+  <view class="luntan">
+      <!-- 用户头像，昵称，时间的盒子 -->
+      <view class="userBox">  
+          <view class="touBox">
+              <image src="{{item.faceImg}}" class="touBox"></image>
+          </view>
+          <view class="userBox2">
+              <view class="nameBox">{{item.nickName}}</view>
+              <view class="timeBox">{{item.time}}</view>
+          </view>
+      </view>
+      <!-- 帖子具体信息 -->
+      <scroll-view class="scroll" scroll-y="true">
+        <view class="mainBox">
+            {{item.text}}       
+        </view>
+        
+        <view class="images-wrap">
+          <block wx:if="{{item.images.length == 1}}" wx:for="{{item.images}}" wx:for-item="imgItem" wx:key="index">
+              <!-- 单图布局 -->
+              <image src="{{imgItem}}" class="images-1"></image>
+          </block>
+          <!-- 2-3张图布局 -->
+          <block wx:if="{{item.images.length == 2 || item.images.length == 3}}" wx:for="{{item.images}}" wx:for-item="imgItem" wx:key="index">
+              <image src="{{imgItem}}" class="images-2-3"></image>
+          </block>
+        </view>
+      </scroll-view>
+      <!-- 收藏、点赞、评论按钮的盒子 -->
+      <!-- <view class="bottomBox">
+          
+          <text class="iconfont icon-dianzan"></text>
+          <text class="iconfont icon-pinglun"></text>
+          <text class="iconfont icon-shoucang"></text>
+      
+      </view> -->
+  </view>
+</block>
+
+<view class="btnRelease">
+  <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/bianji.png" bindtap="toFabu" class="fabu"></image>
+</view>

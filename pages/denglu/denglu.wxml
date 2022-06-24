@@ -1,0 +1,6 @@
+<!-- <button bindtap="getInfo">授权登陆</button> -->
+<view class="page" bindtap="getInfo">
+  <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/click.png" class="img"></image>
+  <view class="text">点击登录</view>
+</view>
+

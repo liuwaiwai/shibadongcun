@@ -1,0 +1,7 @@
+<view>
+  <movable-area scale-area="true" class="move">
+    <movable-view x="-500rpx" y="-500rpx" direction="all" out-of-bounds="true" scale="true" class="move1">
+      <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/map1.jpeg" class="img"></image>
+    </movable-view>
+  </movable-area>
+</view>

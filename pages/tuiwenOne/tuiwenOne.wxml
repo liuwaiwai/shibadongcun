@@ -1,0 +1,2 @@
+<!--pages/meishi/meishi.wxml-->
+<web-view src="{{url}}"></web-view>

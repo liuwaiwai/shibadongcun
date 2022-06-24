@@ -1,0 +1,111 @@
+/* pages/pingdao/pingdao.wxss */
+.title {
+  /* 上下 左右 */
+  height: 30rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  margin-bottom: 40rpx;
+  font-size: 42rpx;
+  font-weight: 500;
+  color: rgb(39, 38, 38);
+}
+
+/* 位置三个图标的盒子 */
+/* .wzBox {
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  
+} */
+
+.img {
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 36rpx;
+  /* margin: 0 auto; */
+}
+
+/* 图标和文字的大盒子 */
+.sBox {
+  width: 150rpx;
+  /* height: 120rpx; */
+  margin-top: 15rpx;
+  margin-left: 60rpx;
+}
+
+.tubiao {
+  margin: 0 auto;
+}
+/* 文字的盒子 */
+.wenzi {
+  width: 150rpx; 
+  /* height: 40rpx; */
+  /* margin: 0 auto; */
+  margin-top: 5rpx;
+  /* margin-left: 10rpx; */
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: rgb(58, 56, 56);
+}
+
+
+/* 联系三个图标的盒子 */
+.xiaBox {
+  height: 150rpx;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+
+/* 文化演出 */
+/* .ycBox {
+  height: 150rpx;
+  display: flex;
+} */
+
+/* 天气 */
+.tqBox {
+  height: 150rpx;
+}
+
+/* 总共四个大盒子，按顺序为firBox。。。 */
+/* .firBox {
+  height: 250rpx;
+  width: 730rpx; */
+  /* 上 右 下 左 */
+  /* margin: 20rpx 10rpx 20rpx 10rpx;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  border-radius: 10rpx;
+} */
+
+.secBox {
+  height: 240rpx;
+  width: 710rpx;
+  /* 上 右 下 左 */
+  margin: 0 20rpx 20rpx 20rpx;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  border-radius: 10rpx;
+}
+.thrBox {
+  height: 240rpx;
+  width: 710rpx;
+  /* 上 右 下 左 */
+  margin: 0 20rpx 20rpx 20rpx;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  border-radius: 10rpx;
+}
+
+.fouBox {
+  height: 240rpx;
+  width: 710rpx;
+  /* 上 右 下 左 */
+  margin: 0 20rpx 20rpx 20rpx;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  border-radius: 10rpx;
+}

@@ -1,0 +1,62 @@
+/* 头像昵称的盒子 */
+.touBox {
+    height: 300rpx;
+    width: 100%;
+    
+    margin-bottom: 10rpx;
+}
+
+/* 我的收藏等的盒子 */
+.miniBox {
+    height: 100rpx;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid grey; */
+    border-radius: 10rpx;
+    margin-bottom: 20rpx;
+    font-size: 30rpx;
+    line-height: 100rpx;
+    display: flex;
+    background-color: white;
+}
+
+/* 图片icon */
+ .img {
+    height: 60rpx;
+    width: 60rpx;
+    padding: 20rpx;
+}
+
+/* 文字的盒子 */
+.leftBox {
+  height: 60rpx;
+  width: 70%;
+  margin-left: 30rpx;
+}
+
+/* 图片icon */
+.iconBox {
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+}
+
+/* 箭头盒子 */
+.jiantouBox {
+  margin-right: 0;
+}
+
+
+.denglu {
+  width:150rpx;
+  height:150rpx; 
+  margin-top: 50rpx;
+  margin-left: 40%;
+  border-radius: 50%;
+}
+
+.dengluText {
+  margin-top: 10rpx;
+  text-align: center;
+}

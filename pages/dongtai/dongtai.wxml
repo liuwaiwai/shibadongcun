@@ -1,0 +1,23 @@
+<view class="pub-wrap">
+  <view class="pub-text" bindtap="submitData">发布</view>
+</view>
+
+<view class="input-wrap">
+  <textarea placeholder="发表你的想法..." class="input-text" maxlength="2000" bindinput="getValue"></textarea>
+</view>
+
+<view class="img-wrap">
+
+  <block wx:for="{{cloudImgList}}" wx:key="index">
+    <view class="one-img">
+      <image src="{{item}}" class="img-choose"></image>
+      <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shanchu.png" class="close-img" bindtap="deleteImg" data-index="{{index}}"></image>
+    </view>
+  </block>
+
+  <view class="one-img" bindtap="chooseImage" wx:if="{{cloudImgList.length < 9}}">
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/tianjia.jpg" class="img-choose"></image>
+  </view>
+
+</view>
+

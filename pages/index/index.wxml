@@ -1,0 +1,124 @@
+<view class="header">
+  <!-- 顶部图 -->
+  <view class="top">
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shouye/top.jpg" class="topImage"></image>
+  </view>
+  <!-- 主题 -->
+  <view class="itemIdea">
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shouye/img-1.jpg" class="itemImage1" bindtap="goStory1"></image>
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shouye/img-2.jpg" class="itemImage1" bindtap="goStory2"></image>
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shouye/img-3.jpg" class="itemImage2" bindtap="goStory3"></image>
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shouye/img-4.jpg" class="itemImage2" bindtap="goStory4"></image>
+  </view>
+
+
+  <!-- 导航图标区域 -->
+  <!-- <view class="navContainer">
+    <view class="navContainer1">
+      <view class="navItem">
+        <text class="iconfont icon-tianqi"></text>
+        <text>天气</text>
+      </view>
+      <view class="navItem">
+        <text class="iconfont icon-tubiaozhizuomoban"></text>
+        <text>风景</text>
+      </view>
+      <view class="navItem">
+        <text class="iconfont icon-meishi"></text>
+        <text>美食</text>
+      </view>
+    </view>
+    <view class="navContainer2">
+      <view class="navItem">
+        <text class="iconfont icon-qichexiangguan-tingchechang"></text>
+        <text>停车点</text>
+      </view>
+      <view class="navItem">
+        <text class="iconfont icon-gonggongcesuo"></text>
+        <text>卫生间</text>
+      </view>
+      <view class="navItem">
+        <text class="iconfont icon-qita"></text>
+        <text>其他</text>
+      </view>
+    </view>
+  </view> -->
+
+</view>
+
+<!-- tips区域 -->
+<view class="tip">
+  <view bindtap="fangyi">
+    <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/zhengce1.jpg"></image>
+  </view>
+</view>
+
+<view class="body">
+  <!-- 文化产物 -->
+  <view class="wenhua">
+    <view class="title">文化产物</view>
+    <scroll-view class="scroll" scroll-x="true" enable-flex="true">
+      <block wx:for="{{productList}}" wx:key="index">
+        <view class="scrollItem">
+          <view bindtap="goTweets" data-item="{{item}}" >
+            <image src="{{item.pic}}"></image>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+  <!-- 景点区域 -->
+  <view class="jingdain">
+    <view class="title">当地景点</view>
+    <scroll-view class="scroll" scroll-x="true" enable-flex="true">
+      <block wx:for="{{viewList}}" wx:key="index">
+        <view class="scrollItem">
+          <view bindtap="goTweets" data-item="{{item}}" >
+            <image src="{{item.pic}}"></image>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+  <!-- 美食区域 -->
+  <view class="meishi">
+    <view class="title">当地美食</view>
+    <scroll-view class="scroll" scroll-x="true" enable-flex="true">
+      <block wx:for="{{foodList}}" wx:key="index">
+        <view class="scrollItem">
+          <view bindtap="goTweets" data-item="{{item}}" >
+            <image src="{{item.pic}}"></image>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+  <!-- 传统习俗 -->
+  <view class="xisu">
+    <view class="title">传统习俗</view>
+    <scroll-view class="scroll" scroll-x="true" enable-flex="true">
+      <block wx:for="{{traditionList}}" wx:key="index">
+        <view class="scrollItem">
+          <view bindtap="goTweets" data-item="{{item}}" >
+            <image src="{{item.pic}}"></image>
+            <text>{{item.name}}</text>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+</view>
+
+<view class="footer">
+  <text class="title">当地地图</text>
+  <!-- <map longitude="109.504500" latitude="28.387000" show-location  enable-building></map> -->
+  <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/shouye/map.png"  class="map"></image>
+  <map longitude="109.504500" latitude="28.387000" show-location  enable-building class="map"></map>
+</view>

@@ -1,0 +1,67 @@
+<!-- 环境天气 -->
+<view class="Box">
+
+    <view class="secBox">
+      <view class="title">位置</view>
+      <view class="xiaBox">
+        <view class="sBox" bindtap="toTingche">
+          <!-- <text class="iconfont icon-a-bochetingchetingchechang"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/tingche.png" class="img"></image>
+          <view class="wenzi">停车点</view>
+        </view>
+        <view class="sBox" bindtap="toWeishengjian">
+          <!-- <text class="iconfont icon-ziyuan"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/weishengjian.png" class="img"></image>
+          <view class="wenzi">卫生间</view>
+        </view>
+        <view class="sBox" bindtap="toJingdian">
+          <!-- <text class="iconfont icon-fengjing"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/jingdian.png" class="img"></image>
+          <view class="wenzi">景点</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="thrBox">
+      <view class="title">当地</view>
+        <view class="xiaBox">
+          <view class="sBox" bindtap="toTianqi">
+            <view class="tubiao">
+              <!-- <text class="iconfont icon-tianqi"></text> -->
+              <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/tianqi.png" class="img"></image>
+            </view>
+            <view class="wenzi">天气</view>
+          </view>
+          <view class="sBox" bindtap="toYanchu">
+            <view class="tubiao">
+              <!-- <text class="iconfont icon-rili"></text> -->
+              <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/yanchu.png" class="img"></image>
+            </view>
+            <view class="wenzi">文化演出</view>
+          </view>         
+        </view>
+    </view>
+
+    <view class="fouBox">
+      <view class="title">联系</view>
+      <view class="xiaBox">
+        <view class="sBox" bindtap="toCunwei">
+          <!-- <text class="iconfont icon-huiyijilu"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/cunwei.png" class="img"></image>
+          <view class="wenzi">村委</view>
+        </view>
+        <view class="sBox" bindtap="toNongjiale">
+          <!-- <text class="iconfont icon-mifan"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/nongjiale.png" class="img"></image>
+          <view class="wenzi">农家乐</view>
+        </view>
+        <view class="sBox" bindtap="toMinsu">
+          <!-- <text class="iconfont icon-a-fangziwuzijianzhu"></text> -->
+          <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/pindao/minsu.png" class="img"></image>
+          <view class="wenzi">民宿</view>
+        </view>
+      </view>
+    </view>
+</view>
+
+

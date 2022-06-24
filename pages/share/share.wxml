@@ -1,0 +1,4 @@
+<!--pages/share/share.wxml-->
+<view class="center">
+  <image src="cloud://gogogo-1gx7bgms7c34f0c4.676f-gogogo-1gx7bgms7c34f0c4-1311984038/mime/小程序码.jpg"></image>
+</view>
